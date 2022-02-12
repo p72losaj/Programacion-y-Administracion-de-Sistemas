@@ -1,0 +1,12 @@
+[2020-03-18, 16:30:26] ==> [Cliente]: El nombre de la cola server es: /server_queue-p72losaj
+
+[2020-03-18, 16:30:26] ==> [Cliente]: El nombre de la cola client es: /client_queue-p72losaj
+
+[2020-03-18, 16:30:26] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2020-03-18, 16:30:26] ==>  [Cliente]: El descriptor de la cola cliente es: 4
+
+[2020-03-18, 16:30:31] ==>  Recibido el mensaje: 
+[2020-03-18, 16:30:31] ==> 10
+[2020-03-18, 16:30:42] ==>  Recibido el mensaje: 
+[2020-03-18, 16:30:42] ==> 6

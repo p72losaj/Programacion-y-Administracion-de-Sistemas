@@ -1,0 +1,12 @@
+[2020-03-18, 16:30:20] ==> [Servidor]: El nombre de la cola servidor es: /server_queue-p72losaj
+
+[2020-03-18, 16:30:20] ==>  [Servidor]: El nombre de la cola client es /client_queue-p72losaj
+
+[2020-03-18, 16:30:20] ==>  [Servidor]: El descriptor de la cola cliente es: 4
+
+[2020-03-18, 16:30:31] ==> [Servidor]: Recibido el mensaje del cliente: hola mundo
+
+
+[2020-03-18, 16:30:42] ==> [Servidor]: Recibido el mensaje del cliente: hellow
+
+
