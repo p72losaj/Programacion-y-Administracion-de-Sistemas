@@ -1,0 +1,66 @@
+Pregunta1
+a)  La salida hace un make en la ruta especificada a las 15:45 los viernes 13
+
+La salida 2 hace una copia de seguridad del nivel 0 en /dev/sda1 a las 23:55 los lunes
+
+La salida 3 guarda en un fichero log la capacidad, el espacio libre y el montaje de cada sistema de ficheros del equipo cada 10 minutos
+
+b)  
+
+* * * * * root dump 1 -u -2 /dev/sth /dev/sh 2
+
+* * 15 * * root dump 1 -u -2 /dev/sth /dev/sh 2
+Pregunta2
+a)
+ 
+La copia de seguridad completa guarda todos los ficheros asociados al ordenador, siendo únicamente justificado si se producen cambios muy a menudo. Además, aunque es un solo fichero se consume mucho tiempo y es difícil recuperar un archivo suelto.
+
+ 
+
+La copia de seguridad parcial copia los archivos indicados por el usuario, siendo una copia sencilla. Sin embargo, podemos dejarnos archivos sin copiar.
+
+ 
+
+La copia de seguridad incremental sólo copia los ficheros que hayan cambiado desde la última copia, manteniendo una copia completa. Además, se incorporan pequeños cambios que harán las copias incrementales
+
+b) 
+
+
+Pregunta3
+
+a) 
+
+Lo que hacen todas las líneas es crear una carpeta en el directorio actual usando el comando mkdir y guarda en dicho directorio una copia de todos los ficheros del directorio actual.
+
+b) 
+
+
+Pregunta4
+
+Apartado b (30%)
+
+Explicar los enlaces encontrados
+
+ El comando ls -la muestra en forma de lista la información sobre todos los ficheros del directorio. dicha información indica lo siguiente:
+
+lrwxrwxrwx: Indica los permisos
+
+1: Indica el número de enlaces simbólicos
+
+juan: Usuario con los permisos
+
+alumnos: Grupo al que pertenece el usuario
+
+49: Tamaño en bits
+
+2017-05-25: Fecha de creación del archivo
+
+9:30: Hora de creación del archivo
+
+lista -> /etc/share/ls: Shell
+
+Apartado c (20%)
+
+Explicar el efecto que se produciría en las distintas tablas
+
+ El comando ln prac2 ../prac3 crea un enlace físico en el nodo-i que contiene prac2. Esto tiene la función de evitar que se elimine el elemento pract2 mientras que exista en enlace físico.
