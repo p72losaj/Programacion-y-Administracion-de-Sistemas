@@ -1,0 +1,2 @@
+ssh usuarioUCO@ts.uco.es
+sftp://usuarioUCO@ts.uco.es/home/usuarioUCO
